@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA034EDA1B2BA6B400B70CA4 /* EditMileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA034ED91B2BA6B400B70CA4 /* EditMileViewController.m */; };
+		BA034EDE1B2C4FF200B70CA4 /* EditOilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA034EDD1B2C4FF200B70CA4 /* EditOilViewController.m */; };
+		BABBE8121B2C86EB006ADD56 /* MileSql.m in Sources */ = {isa = PBXBuildFile; fileRef = BABBE8111B2C86EB006ADD56 /* MileSql.m */; };
+		BABBE8141B2D5F04006ADD56 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BABBE8131B2D5F04006ADD56 /* libsqlite3.dylib */; };
+		BABBE8181B2D7C28006ADD56 /* OilSQLite.m in Sources */ = {isa = PBXBuildFile; fileRef = BABBE8171B2D7C28006ADD56 /* OilSQLite.m */; };
+		BAD0C01A1B305FAD002BE685 /* readMe in Resources */ = {isa = PBXBuildFile; fileRef = BAD0C0191B305FAD002BE685 /* readMe */; };
+		BAE452251B2428A600BB2F4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE452241B2428A600BB2F4B /* main.m */; };
+		BAE452281B2428A600BB2F4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE452271B2428A600BB2F4B /* AppDelegate.m */; };
+		BAE4522E1B2428A600BB2F4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE4522C1B2428A600BB2F4B /* Main.storyboard */; };
+		BAE452301B2428A600BB2F4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE4522F1B2428A600BB2F4B /* Images.xcassets */; };
+		BAE452331B2428A600BB2F4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAE452311B2428A600BB2F4B /* LaunchScreen.xib */; };
+		BAE4523F1B2428A600BB2F4B /* xDriver_003Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE4523E1B2428A600BB2F4B /* xDriver_003Tests.m */; };
+		BAE4524F1B24296700BB2F4B /* MileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE4524E1B24296700BB2F4B /* MileTableViewController.m */; };
+		BAE452521B248C8700BB2F4B /* MileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE452511B248C8700BB2F4B /* MileCell.m */; };
+		BAE452551B248C9C00BB2F4B /* OilCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE452541B248C9C00BB2F4B /* OilCell.m */; };
+		BAE452581B248E1D00BB2F4B /* MileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE452571B248E1D00BB2F4B /* MileModel.m */; };
+		BAE4525B1B248E2900BB2F4B /* OilModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE4525A1B248E2900BB2F4B /* OilModel.m */; };
+		BAE4525E1B25CA5400BB2F4B /* OnDrivingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE4525D1B25CA5400BB2F4B /* OnDrivingViewController.m */; };
+		BAE452621B25E98800BB2F4B /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE452611B25E98800BB2F4B /* DateUtil.m */; };
+		BAE452651B2720D300BB2F4B /* NSCodingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE452641B2720D300BB2F4B /* NSCodingUtil.m */; };
+		BAE452681B27228B00BB2F4B /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE452671B27228B00BB2F4B /* CommonUtil.m */; };
+		BAE4526B1B288C3000BB2F4B /* NewOilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE4526A1B288C3000BB2F4B /* NewOilViewController.m */; };
+		BAFE7DA31B5801A8002FB265 /* RequestUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFE7DA21B5801A8002FB265 /* RequestUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAE452391B2428A600BB2F4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAE452171B2428A600BB2F4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE4521E1B2428A600BB2F4B;
+			remoteInfo = "xDriver-003";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA034ED81B2BA6B400B70CA4 /* EditMileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditMileViewController.h; sourceTree = "<group>"; };
+		BA034ED91B2BA6B400B70CA4 /* EditMileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditMileViewController.m; sourceTree = "<group>"; };
+		BA034EDC1B2C4FF200B70CA4 /* EditOilViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditOilViewController.h; sourceTree = "<group>"; };
+		BA034EDD1B2C4FF200B70CA4 /* EditOilViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditOilViewController.m; sourceTree = "<group>"; };
+		BABBE8101B2C86EB006ADD56 /* MileSql.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MileSql.h; sourceTree = "<group>"; };
+		BABBE8111B2C86EB006ADD56 /* MileSql.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MileSql.m; sourceTree = "<group>"; };
+		BABBE8131B2D5F04006ADD56 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		BABBE8161B2D7C28006ADD56 /* OilSQLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OilSQLite.h; sourceTree = "<group>"; };
+		BABBE8171B2D7C28006ADD56 /* OilSQLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OilSQLite.m; sourceTree = "<group>"; };
+		BAD0C0191B305FAD002BE685 /* readMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readMe; sourceTree = "<group>"; };
+		BAE4521F1B2428A600BB2F4B /* xDriver-003.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xDriver-003.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE452231B2428A600BB2F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE452241B2428A600BB2F4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAE452261B2428A600BB2F4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BAE452271B2428A600BB2F4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BAE4522D1B2428A600BB2F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAE4522F1B2428A600BB2F4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BAE452321B2428A600BB2F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BAE452381B2428A600BB2F4B /* xDriver-003Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "xDriver-003Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE4523D1B2428A600BB2F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE4523E1B2428A600BB2F4B /* xDriver_003Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xDriver_003Tests.m; sourceTree = "<group>"; };
+		BAE4524D1B24296700BB2F4B /* MileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MileTableViewController.h; sourceTree = "<group>"; };
+		BAE4524E1B24296700BB2F4B /* MileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MileTableViewController.m; sourceTree = "<group>"; };
+		BAE452501B248C8700BB2F4B /* MileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MileCell.h; sourceTree = "<group>"; };
+		BAE452511B248C8700BB2F4B /* MileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MileCell.m; sourceTree = "<group>"; };
+		BAE452531B248C9C00BB2F4B /* OilCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OilCell.h; sourceTree = "<group>"; };
+		BAE452541B248C9C00BB2F4B /* OilCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OilCell.m; sourceTree = "<group>"; };
+		BAE452561B248E1D00BB2F4B /* MileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MileModel.h; sourceTree = "<group>"; };
+		BAE452571B248E1D00BB2F4B /* MileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MileModel.m; sourceTree = "<group>"; };
+		BAE452591B248E2900BB2F4B /* OilModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OilModel.h; sourceTree = "<group>"; };
+		BAE4525A1B248E2900BB2F4B /* OilModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OilModel.m; sourceTree = "<group>"; };
+		BAE4525C1B25CA5400BB2F4B /* OnDrivingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OnDrivingViewController.h; path = ../OnDrivingViewController.h; sourceTree = "<group>"; };
+		BAE4525D1B25CA5400BB2F4B /* OnDrivingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OnDrivingViewController.m; path = ../OnDrivingViewController.m; sourceTree = "<group>"; };
+		BAE452601B25E98800BB2F4B /* DateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUtil.h; sourceTree = "<group>"; };
+		BAE452611B25E98800BB2F4B /* DateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUtil.m; sourceTree = "<group>"; };
+		BAE452631B2720D300BB2F4B /* NSCodingUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCodingUtil.h; sourceTree = "<group>"; };
+		BAE452641B2720D300BB2F4B /* NSCodingUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCodingUtil.m; sourceTree = "<group>"; };
+		BAE452661B27228B00BB2F4B /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
+		BAE452671B27228B00BB2F4B /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
+		BAE452691B288C3000BB2F4B /* NewOilViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewOilViewController.h; sourceTree = "<group>"; };
+		BAE4526A1B288C3000BB2F4B /* NewOilViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewOilViewController.m; sourceTree = "<group>"; };
+		BAFE7DA11B5801A8002FB265 /* RequestUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestUtil.h; sourceTree = "<group>"; };
+		BAFE7DA21B5801A8002FB265 /* RequestUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAE4521C1B2428A600BB2F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABBE8141B2D5F04006ADD56 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE452351B2428A600BB2F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA034EE21B2C7B8600B70CA4 /* sqlite3 */ = {
+			isa = PBXGroup;
+			children = (
+				BABBE8101B2C86EB006ADD56 /* MileSql.h */,
+				BABBE8111B2C86EB006ADD56 /* MileSql.m */,
+				BABBE8161B2D7C28006ADD56 /* OilSQLite.h */,
+				BABBE8171B2D7C28006ADD56 /* OilSQLite.m */,
+			);
+			name = sqlite3;
+			sourceTree = "<group>";
+		};
+		BAE452161B2428A600BB2F4B = {
+			isa = PBXGroup;
+			children = (
+				BABBE8131B2D5F04006ADD56 /* libsqlite3.dylib */,
+				BAE452211B2428A600BB2F4B /* xDriver-003 */,
+				BAE4523B1B2428A600BB2F4B /* xDriver-003Tests */,
+				BAE452201B2428A600BB2F4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAE452201B2428A600BB2F4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAE4521F1B2428A600BB2F4B /* xDriver-003.app */,
+				BAE452381B2428A600BB2F4B /* xDriver-003Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAE452211B2428A600BB2F4B /* xDriver-003 */ = {
+			isa = PBXGroup;
+			children = (
+				BAE4524C1B2428FF00BB2F4B /* classes */,
+				BAE452221B2428A600BB2F4B /* Supporting Files */,
+				BAD0C0191B305FAD002BE685 /* readMe */,
+			);
+			path = "xDriver-003";
+			sourceTree = "<group>";
+		};
+		BAE452221B2428A600BB2F4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAE4522C1B2428A600BB2F4B /* Main.storyboard */,
+				BAE4522F1B2428A600BB2F4B /* Images.xcassets */,
+				BAE452311B2428A600BB2F4B /* LaunchScreen.xib */,
+				BAE452231B2428A600BB2F4B /* Info.plist */,
+				BAE452241B2428A600BB2F4B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAE4523B1B2428A600BB2F4B /* xDriver-003Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BAE4523E1B2428A600BB2F4B /* xDriver_003Tests.m */,
+				BAE4523C1B2428A600BB2F4B /* Supporting Files */,
+			);
+			path = "xDriver-003Tests";
+			sourceTree = "<group>";
+		};
+		BAE4523C1B2428A600BB2F4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAE4523D1B2428A600BB2F4B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAE452481B2428E900BB2F4B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BAE452561B248E1D00BB2F4B /* MileModel.h */,
+				BAE452571B248E1D00BB2F4B /* MileModel.m */,
+				BAE452591B248E2900BB2F4B /* OilModel.h */,
+				BAE4525A1B248E2900BB2F4B /* OilModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		BAE452491B2428EE00BB2F4B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				BAE452501B248C8700BB2F4B /* MileCell.h */,
+				BAE452511B248C8700BB2F4B /* MileCell.m */,
+				BAE452531B248C9C00BB2F4B /* OilCell.h */,
+				BAE452541B248C9C00BB2F4B /* OilCell.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		BAE4524A1B2428F200BB2F4B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				BAE4525C1B25CA5400BB2F4B /* OnDrivingViewController.h */,
+				BAE4525D1B25CA5400BB2F4B /* OnDrivingViewController.m */,
+				BAE4524D1B24296700BB2F4B /* MileTableViewController.h */,
+				BAE4524E1B24296700BB2F4B /* MileTableViewController.m */,
+				BAE452691B288C3000BB2F4B /* NewOilViewController.h */,
+				BAE4526A1B288C3000BB2F4B /* NewOilViewController.m */,
+				BA034ED81B2BA6B400B70CA4 /* EditMileViewController.h */,
+				BA034ED91B2BA6B400B70CA4 /* EditMileViewController.m */,
+				BA034EDC1B2C4FF200B70CA4 /* EditOilViewController.h */,
+				BA034EDD1B2C4FF200B70CA4 /* EditOilViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		BAE4524B1B2428F600BB2F4B /* other */ = {
+			isa = PBXGroup;
+			children = (
+				BAE452261B2428A600BB2F4B /* AppDelegate.h */,
+				BAE452271B2428A600BB2F4B /* AppDelegate.m */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+		BAE4524C1B2428FF00BB2F4B /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				BA034EE21B2C7B8600B70CA4 /* sqlite3 */,
+				BAE4525F1B25E97100BB2F4B /* util */,
+				BAE4524B1B2428F600BB2F4B /* other */,
+				BAE4524A1B2428F200BB2F4B /* controller */,
+				BAE452491B2428EE00BB2F4B /* view */,
+				BAE452481B2428E900BB2F4B /* model */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+		BAE4525F1B25E97100BB2F4B /* util */ = {
+			isa = PBXGroup;
+			children = (
+				BAE452601B25E98800BB2F4B /* DateUtil.h */,
+				BAE452611B25E98800BB2F4B /* DateUtil.m */,
+				BAE452631B2720D300BB2F4B /* NSCodingUtil.h */,
+				BAE452641B2720D300BB2F4B /* NSCodingUtil.m */,
+				BAE452661B27228B00BB2F4B /* CommonUtil.h */,
+				BAE452671B27228B00BB2F4B /* CommonUtil.m */,
+				BAFE7DA11B5801A8002FB265 /* RequestUtil.h */,
+				BAFE7DA21B5801A8002FB265 /* RequestUtil.m */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAE4521E1B2428A600BB2F4B /* xDriver-003 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE452421B2428A600BB2F4B /* Build configuration list for PBXNativeTarget "xDriver-003" */;
+			buildPhases = (
+				BAE4521B1B2428A600BB2F4B /* Sources */,
+				BAE4521C1B2428A600BB2F4B /* Frameworks */,
+				BAE4521D1B2428A600BB2F4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "xDriver-003";
+			productName = "xDriver-003";
+			productReference = BAE4521F1B2428A600BB2F4B /* xDriver-003.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAE452371B2428A600BB2F4B /* xDriver-003Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE452451B2428A600BB2F4B /* Build configuration list for PBXNativeTarget "xDriver-003Tests" */;
+			buildPhases = (
+				BAE452341B2428A600BB2F4B /* Sources */,
+				BAE452351B2428A600BB2F4B /* Frameworks */,
+				BAE452361B2428A600BB2F4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAE4523A1B2428A600BB2F4B /* PBXTargetDependency */,
+			);
+			name = "xDriver-003Tests";
+			productName = "xDriver-003Tests";
+			productReference = BAE452381B2428A600BB2F4B /* xDriver-003Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAE452171B2428A600BB2F4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lynn;
+				TargetAttributes = {
+					BAE4521E1B2428A600BB2F4B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					BAE452371B2428A600BB2F4B = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = BAE4521E1B2428A600BB2F4B;
+					};
+				};
+			};
+			buildConfigurationList = BAE4521A1B2428A600BB2F4B /* Build configuration list for PBXProject "xDriver-003" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAE452161B2428A600BB2F4B;
+			productRefGroup = BAE452201B2428A600BB2F4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAE4521E1B2428A600BB2F4B /* xDriver-003 */,
+				BAE452371B2428A600BB2F4B /* xDriver-003Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAE4521D1B2428A600BB2F4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD0C01A1B305FAD002BE685 /* readMe in Resources */,
+				BAE4522E1B2428A600BB2F4B /* Main.storyboard in Resources */,
+				BAE452331B2428A600BB2F4B /* LaunchScreen.xib in Resources */,
+				BAE452301B2428A600BB2F4B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE452361B2428A600BB2F4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAE4521B1B2428A600BB2F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE452581B248E1D00BB2F4B /* MileModel.m in Sources */,
+				BAE452521B248C8700BB2F4B /* MileCell.m in Sources */,
+				BAFE7DA31B5801A8002FB265 /* RequestUtil.m in Sources */,
+				BAE4526B1B288C3000BB2F4B /* NewOilViewController.m in Sources */,
+				BAE452651B2720D300BB2F4B /* NSCodingUtil.m in Sources */,
+				BAE452551B248C9C00BB2F4B /* OilCell.m in Sources */,
+				BAE4525E1B25CA5400BB2F4B /* OnDrivingViewController.m in Sources */,
+				BAE452281B2428A600BB2F4B /* AppDelegate.m in Sources */,
+				BA034EDE1B2C4FF200B70CA4 /* EditOilViewController.m in Sources */,
+				BAE452681B27228B00BB2F4B /* CommonUtil.m in Sources */,
+				BAE4525B1B248E2900BB2F4B /* OilModel.m in Sources */,
+				BA034EDA1B2BA6B400B70CA4 /* EditMileViewController.m in Sources */,
+				BABBE8121B2C86EB006ADD56 /* MileSql.m in Sources */,
+				BABBE8181B2D7C28006ADD56 /* OilSQLite.m in Sources */,
+				BAE452621B25E98800BB2F4B /* DateUtil.m in Sources */,
+				BAE4524F1B24296700BB2F4B /* MileTableViewController.m in Sources */,
+				BAE452251B2428A600BB2F4B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE452341B2428A600BB2F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE4523F1B2428A600BB2F4B /* xDriver_003Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAE4523A1B2428A600BB2F4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAE4521E1B2428A600BB2F4B /* xDriver-003 */;
+			targetProxy = BAE452391B2428A600BB2F4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAE4522C1B2428A600BB2F4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE4522D1B2428A600BB2F4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAE452311B2428A600BB2F4B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE452321B2428A600BB2F4B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAE452401B2428A600BB2F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (SM55Y27R73)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BAE452411B2428A600BB2F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (SM55Y27R73)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAE452431B2428A600BB2F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/lynn/Downloads/BaiduMap_IOSSDK_v2.8.0_All/BaiduMap_IOSSDK_v2.8.0_Lib/Release-iphoneos",
+				);
+				INFOPLIST_FILE = "xDriver-003/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.superman.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BAE452441B2428A600BB2F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/lynn/Downloads/BaiduMap_IOSSDK_v2.8.0_All/BaiduMap_IOSSDK_v2.8.0_Lib/Release-iphoneos",
+				);
+				INFOPLIST_FILE = "xDriver-003/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.superman.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BAE452461B2428A600BB2F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "xDriver-003Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.superman.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xDriver-003.app/xDriver-003";
+			};
+			name = Debug;
+		};
+		BAE452471B2428A600BB2F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "xDriver-003Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.superman.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xDriver-003.app/xDriver-003";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAE4521A1B2428A600BB2F4B /* Build configuration list for PBXProject "xDriver-003" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE452401B2428A600BB2F4B /* Debug */,
+				BAE452411B2428A600BB2F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE452421B2428A600BB2F4B /* Build configuration list for PBXNativeTarget "xDriver-003" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE452431B2428A600BB2F4B /* Debug */,
+				BAE452441B2428A600BB2F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE452451B2428A600BB2F4B /* Build configuration list for PBXNativeTarget "xDriver-003Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE452461B2428A600BB2F4B /* Debug */,
+				BAE452471B2428A600BB2F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAE452171B2428A600BB2F4B /* Project object */;
+}
